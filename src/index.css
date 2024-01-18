@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-color: #EE9430;
+  --brand-color-alt: #2B0E11;
+  --brand-color-light: #ECC839;
+  --dark-10: #15181F;
+  --dark-20: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Creepster", system-ui;
+}

@@ -1,0 +1,18 @@
+.card__content {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 600ms ease-in-out;
+}
+
+.card__content--flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face--front {
+  background: var(--dark-10);
+  color: var(--brand-color);
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
