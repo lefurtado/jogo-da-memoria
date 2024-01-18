@@ -74,11 +74,11 @@ export default function Grid({ cards }) {
 
   return (
     <>
-      <div className="bg-back-image bg-cover h-screen">
+      <div className="bg-back-image bg-cover bg-center h-screen">
         <div className="bg-gradient-to-t from-transparent to-black h-screen">
           <main className="max-w-7xl mx-auto text-center">
-            <div className="flex flex-col items-center gap-10">
-              <p className="text-8xl text-brand-color-light mt-14">
+            <div className="flex flex-col items-center xl:gap-5">
+              <p className="text-8xl text-brand-color-light mt-10">
                 Jogo da memória
               </p>
               {/* <select
@@ -93,7 +93,7 @@ export default function Grid({ cards }) {
 
               {/* IMPLEMENTAR SELEÇÃO DE NÍVEL DE DIFICULDADE */}
 
-              <p className="text-3xl text-brand-color-light">
+              <p className="xl:text-3xl text-brand-color-light">
                 Movimentos: {moves} | Acertos: {matches} |{"    "}
                 <button
                   onClick={handleReset}
@@ -102,7 +102,7 @@ export default function Grid({ cards }) {
                   Reiniciar
                 </button>
               </p>
-              <div className="flex flex-wrap justify-between max-w-6xl gap-8">
+              <div className="flex flex-wrap justify-evenly gap-3 xl:gap-7">
                 {stateCards.map((card) => {
                   return (
                     <Card {...card} key={card.id} handleClick={handleClick} />
