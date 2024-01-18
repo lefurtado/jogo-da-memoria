@@ -1,38 +1,48 @@
+import img1 from '/src/assets/images/01.png';
+import img2 from '/src/assets/images/02.png';
+import img3 from '/src/assets/images/03.png';
+import img4 from '/src/assets/images/04.png';
+import img5 from '/src/assets/images/05.png';
+import img6 from '/src/assets/images/06.png';
+import img7 from '/src/assets/images/07.png';
+import img8 from '/src/assets/images/08.png';
+import img9 from '/src/assets/images/09.png';
+
 export const cards = [
   {
     id: '1',
-    back: '/src/assets/images/01.png'
+    back: img1
   },
   {
     id: '2',
-    back: '/src/assets/images/02.png'
+    back: img2
   },
   {
     id: '3',
-    back: '/src/assets/images/03.png'
+    back: img3
   },
   {
     id: '4',
-    back: '/src/assets/images/04.png'
+    back: img4
   },
   {
     id: '5',
-    back: '/src/assets/images/05.png'
+    back: img5
   },
   {
     id: '6',
-    back: '/src/assets/images/06.png'
+    back: img6
   },
   {
     id: '7',
-    back: '/src/assets/images/07.png'
+    back: img7
   },
   {
     id: '8',
-    back: '/src/assets/images/08.png'
+    back: img8
   },
   {
     id: '9',
-    back: '/src/assets/images/09.png'
+    back: img9
   },
 ]
