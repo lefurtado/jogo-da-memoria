@@ -27,7 +27,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'back-image': "url('src/assets/images/background.png')"
+        'back-image': "url('assets/images/background.png')"
       },
       colors: {
         'brand-color': '#EE9430',
