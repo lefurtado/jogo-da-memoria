@@ -2,6 +2,7 @@
 import { useRef, useState } from "react";
 import { duplicateRegenerateSortArray } from "../../utils/card-utils";
 import Card from "../Card";
+import Modal from "../Modal";
 
 export default function Grid({ cards }) {
   const [stateCards, setStateCards] = useState(() => {
@@ -108,6 +109,7 @@ export default function Grid({ cards }) {
                   );
                 })}
               </div>
+              {matches === 9 ? <Modal handleReset={handleReset} /> : null}
             </div>
           </main>
         </div>
