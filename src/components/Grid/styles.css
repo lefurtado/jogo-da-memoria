@@ -1,0 +1,6 @@
+.background_style {
+  background: linear-gradient(0deg, #0F0F0F 23.37%, rgba(15, 15, 15, 0.00) 100%), url('../../assets/images/background.png'), lightgray -547.999px -171px / 158.056% 315.78% no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import { duplicateRegenerateSortArray } from "../../utils/card-utils";
 import Card from "../Card";
 import Modal from "../Modal";
+import "./styles.css";
 
 export default function Grid({ cards }) {
   const [stateCards, setStateCards] = useState(() => {
@@ -74,11 +75,11 @@ export default function Grid({ cards }) {
 
   return (
     <>
-      <div className="bg-back-image bg-cover bg-center h-screen">
-        <div className="bg-gradient-to-t from-transparent to-black h-screen">
+      <div className="background_style">
+        <div className="relative bg-gradient-to-t from-transparent to-black h-screen">
           <main className="max-w-7xl mx-auto text-center">
             <div className="flex flex-col items-center xl:gap-5">
-              <p className="text-8xl text-brand-color-light mt-10">
+              <p className="text-5xl sm:text-8xl text-brand-color-light mt-10">
                 Jogo da memória
               </p>
               {/* <select
@@ -102,7 +103,7 @@ export default function Grid({ cards }) {
                   Reiniciar
                 </button>
               </p>
-              <div className="flex flex-wrap justify-evenly gap-3 xl:gap-7">
+              <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 sm:gap-8 mt-5">
                 {stateCards.map((card) => {
                   return (
                     <Card {...card} key={card.id} handleClick={handleClick} />
