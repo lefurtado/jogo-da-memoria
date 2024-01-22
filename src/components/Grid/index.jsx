@@ -79,8 +79,8 @@ export default function Grid({ cards }) {
         <div className="relative bg-gradient-to-t from-transparent to-black h-screen">
           <main className="max-w-7xl mx-auto text-center">
             <div className="flex flex-col items-center xl:gap-5">
-              <p className="text-5xl sm:text-8xl text-brand-color-light mt-10">
-                Jogo da memória
+              <p className="text-5xl sm:text-7xl text-brand-color-light mt-10">
+                Jogo da memoria
               </p>
               {/* <select
                 className="font-sans bg-brand-color-alt text-brand-color border-2 border-brand-color rounded p-2 w-72"

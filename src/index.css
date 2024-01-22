@@ -19,3 +19,8 @@
 body {
   font-family: "Creepster", system-ui;
 }
+
+@font-face {
+  font-family: october;
+  src: url('./assets/fonts/october.ttf');
+}
