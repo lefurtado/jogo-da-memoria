@@ -10,6 +10,7 @@
 
 .card__face--front {
   font-family: october;
+  box-shadow: 0px 0px 8px 0px #B63C00;
   background: var(--dark-10);
   color: var(--brand-color);
 }
