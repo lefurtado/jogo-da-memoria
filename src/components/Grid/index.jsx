@@ -75,7 +75,7 @@ export default function Grid({ cards }) {
 
   return (
     <>
-      <div className="background_style">
+      <div className="background_style h-[1080px] sm:h-screen">
         <div className="relative bg-gradient-to-t from-transparent to-black h-screen">
           <main className="max-w-7xl mx-auto text-center">
             <div className="flex flex-col items-center xl:gap-5">
@@ -103,7 +103,7 @@ export default function Grid({ cards }) {
                   Reiniciar
                 </button>
               </p>
-              <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 sm:gap-8 mt-5">
+              <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 xl:gap-5 2xl:gap-8 mt-5">
                 {stateCards.map((card) => {
                   return (
                     <Card {...card} key={card.id} handleClick={handleClick} />
