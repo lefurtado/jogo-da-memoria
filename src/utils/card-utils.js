@@ -1,5 +1,3 @@
-import { cards } from "../data/cards";
-
 const keyGen = () => {
   return (
     Math.random().toString(36).substring(2, 15) +
